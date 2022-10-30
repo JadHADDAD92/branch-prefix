@@ -1,0 +1,6 @@
+- id: branch-prefix
+  name: branch prefix
+  description: Add prefix to branch names
+  entry: branch-prefix
+  verbose: true
+  language: python
