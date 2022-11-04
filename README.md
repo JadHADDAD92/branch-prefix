@@ -14,6 +14,8 @@ In your `.pre-commit-config` add the following lines:
 ```
 This will trigger the hook when pushing your commits.
 
+If `pre-push` hook is not installed, install using: `pre-commit install --hook-type pre-push`
+
 ### Configuration
 
 At the root of your project, add `branch-prefix.yaml`. For example:
